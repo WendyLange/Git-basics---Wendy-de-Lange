@@ -1,0 +1,50 @@
+body {
+	background-color: grey;
+}
+
+/*De opstelling van de body van de website*/
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+	margin: 0 auto;
+}
+
+.head {
+	display: grid;
+	grid-column: 1/4;
+}
+
+.box {
+	display: grid;
+	grid-gap: 1em;
+	height: 200px;
+	margin: 5px;
+}
+
+.first {
+	grid-column: 1/2;
+	background-color: green;
+}
+
+.second {
+	grid-column: 3/4;
+	background-color: blue;
+}
+
+.third {
+	grid-column: 1/2;
+	background-color: orange;
+}
+
+.fourth {
+	grid-column: 3/4;
+	background-color: pink;
+}
+
+.footer {
+	display: grid;
+	grid-column: 1/4;
+	height: 100px;
+	background-color: teal;
+}
