@@ -5,6 +5,7 @@ body {
 /*De opstelling van de body van de website*/
 .wrapper {
 	display: grid;
+	display: center;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 1em;
 	margin: 0 auto;
@@ -15,11 +16,14 @@ body {
 	grid-column: 1/4;
 }
 
+h2 {
+	display: center;
+}
+
 .box {
 	display: grid;
 	grid-gap: 1em;
 	height: 200px;
-	margin: 5px;
 }
 
 .first {
